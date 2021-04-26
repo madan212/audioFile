@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+    body{background-color:Violet;}
+    h1{
+    	background-color:tomato;
+        text-align:center;
+        font-size:200%;
+        margin:20px;
+        padding: 25px;
+        }
+    form{
+        text-align: right;
+        padding:28px;
+        font-size:200%;
+        color:orange;
+        }
+    .access{
+          text-align:right;
+          padding:20px;
+          font-size:100%;
+          color:orange;
+        }
+            
+
+
+</style>
+</head>
+<body>
+	<h1 style="color:blue;"> Audio file type </h1>
+        
+      	<div class='access'>
+            <form action="http://localhost:5000/api/create" method = "GET">
+                <button type = "submit">create API</button>
+            </form>
+
+		</div>
+		<div>
+			<br>
+			<br>
+		</div>
+		<div id = 'withdrawl_div' class='access'>
+            <form action="http://localhost:5000/api/update" method = "GET">
+        	<button type = "submit">update API</button>
+        </form>
+		</div>
+		<br>
+		<br>
+	    <div id='bal_div' class='access'>
+            <form action="http://localhost:5000/api/delete" method = "POST">
+                <button type = "submit">Delete API</button>
+            </form>
+		</div>
+		<br>
+		<br>
+		 <div>
+            <form action="http://localhost:5000/api/get" method='GET'>
+        	   <button type="submit">get API</button>
+            </form>
+
+		</div>
+	 
+     
+ </body>
+ </html>
+
+
+        
+        
+        
+       
+   
